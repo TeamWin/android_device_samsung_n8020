@@ -37,7 +37,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/n80xx
-TARGET_KERNEL_CONFIG := lineageos_i925_defconfig
+TARGET_KERNEL_CONFIG := twrp_n80xx_defconfig
 
 # Filesystem
 BOARD_NAND_PAGE_SIZE := 2048
